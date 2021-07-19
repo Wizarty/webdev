@@ -454,7 +454,7 @@ form.example::after {
     justify-content: space-around;
 }
 
-.dwn-btn {
+.dwn-aa-btn {
     display: flex;
     flex-direction: row;
     background: #00AFDB;
@@ -463,6 +463,7 @@ form.example::after {
     border: none;
     font-size: 14px;
     line-height: 16px;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -477,10 +478,9 @@ form.example::after {
 
 }
 .dwn-icons {
-    background: #009CC2;
     width: 59px;
     height: 46px;
-    color: white;
+    background-color: #009CC2;
 }
 footer {
     position: relative;
