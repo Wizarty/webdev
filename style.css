@@ -10,7 +10,7 @@ body {
 }
 
 .bg-image-wrapper {
-    position: absolute;
+    position: relative;
     left: 0px;
     right: 0px;
     top: 0px;
@@ -18,11 +18,9 @@ body {
 }
 
 .bg-image {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: -22px;
-    bottom: -22px;
+    position: relative;
+    width: 1600px;
+    height: 744px;
     background: url(./images/bg-image-wrapper.png) center;
 }
 
@@ -35,13 +33,11 @@ body {
     height: 744px;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
 }
 
 .header {
-    text-align: center;
-    position: relative;
-    top: 22px;
+    position: absolute;
+    top: 0;
     left: 0;
 }
 
@@ -59,8 +55,10 @@ nav {
 }
 
 .topnav {
-    display: flex;
+    margin: auto;
+    display: inline-flex;
     width: 585px;
+    height: 95px;
     align-items: center;
     justify-content: space-between;
 }
@@ -103,6 +101,7 @@ nav {
     width: 170px;
     height: 20px;
     bottom: 90px;
+    color: white;
 }
 
 .webdevlife {
