@@ -23,7 +23,7 @@ body {
     right: 0px;
     top: -22px;
     bottom: -22px;
-    background: url(./images/bg-image-wrapper.png);
+    background: url(./images/bg-image-wrapper.png) center;
 }
 
 .screen1 {
@@ -35,6 +35,7 @@ body {
     height: 744px;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .header {
